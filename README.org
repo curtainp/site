@@ -9,4 +9,3 @@ Hexo and Hugo are also awesome static site generator, stable, flexible and simpl
 [[./images/bg/emacs.jpg]]
 
 Okay, let's go : )
-

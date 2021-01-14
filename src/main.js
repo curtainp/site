@@ -126,17 +126,17 @@ $("essay").each(function () {
 });
 
 // Customize contacts way
-$(".me .contact #weibo").attr("href", "//weibo.com/u/" + USERCONFIG.weibo);
-$(".me #wechat img").attr("src", "/images/" + USERCONFIG.wechat);
+//$(".me .contact #weibo").attr("href", "//weibo.com/u/" + USERCONFIG.weibo);
+//$(".me #wechat img").attr("src", "/images/" + USERCONFIG.wechat);
 $(".me .contact #email").attr("href", "mailto:" + USERCONFIG.email);
 $(".me .contact #github").attr(
     "href",
     (USERCONFIG.gitee || "//github.com/") + USERCONFIG.github
 );
-$(".me .contact #bilibili").attr(
-    "href",
-    "//space.bilibili.com/" + USERCONFIG.bilibili
-);
+//$(".me .contact #bilibili").attr(
+//    "href",
+//    "//space.bilibili.com/" + USERCONFIG.bilibili
+//);
 
 // Customize page footer
 $(".validation").html(
@@ -302,7 +302,7 @@ if (isCurPageFn("nav")) {
         _tip = "";
 
     _tip =
-        _bmLen > 20 ? "（🔥太多了，赶快处理吧，亲！）" : "（😤状态还不错！）";
+        _bmLen > 30 ? "（🔥太多了，赶快处理吧，亲！）" : "（😤状态还不错！）";
     $("#content p").append(
         `<span style="float: right;"><progress value="${_bmLen}" max="100"></progress> ${_tip}${_bmLen} 条</span>`
     );

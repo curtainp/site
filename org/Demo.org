@@ -1,0 +1,6 @@
+#+SETUPFILE: ../theme-rose.setup
+#+DATE: <2021-01-14 Thu 11:37>
+#+TITLE: Demo
+
+* Demo
+  Hello World.

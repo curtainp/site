@@ -3,11 +3,11 @@
     "version": "1.0.0",
     "description": "A pure site based on org mode.",
     "main": "index.js",
-    "repository": "https://github.com/loveminimal/site.git",
-    "author": "Jack Liu <loveminimal@163.com>",
+    "repository": "https://github.com/curtainp/site.git",
+    "author": "Curtain <keleidoscope@163.com>",
     "license": "MIT",
     "scripts": {
-        "dev": "gulp", 
+        "dev": "gulp",
         "build": "gulp build",
         "deploy": "gulp build && bash copy.sh"
     },
