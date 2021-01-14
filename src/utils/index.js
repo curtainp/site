@@ -35,8 +35,8 @@ module.exports = {
         if (typeof args === "string") {
             if (
                 [
-                    "/public/" + args + ".html",
-                    "/public/" + args,
+                    "/docs/" + args + ".html",
+                    "/docs/" + args,
                     "/" + args + ".html",
                     "/" + args,
                 ].includes(location.pathname)
@@ -47,8 +47,8 @@ module.exports = {
             args.map((item) => {
                 if (
                     [
-                        "/public/" + item + ".html",
-                        "/public" + item,
+                        "/docs/" + item + ".html",
+                        "/docs" + item,
                         "/" + item + ".html",
                         "/" + item,
                     ].includes(location.pathname)
@@ -62,9 +62,9 @@ module.exports = {
     isHomeFn() {
         if (
             [
-                "/public/index.html",
-                "/public/index",
-                "/public/",
+                "/docs/index.html",
+                "/docs/index",
+                "/docs/",
                 "/index.html",
                 "/index",
                 "/",
